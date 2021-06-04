@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Rattis.Investments.Utilities
+namespace Rattis.Investments.Domain.Entities
 {
     public class Cliente
     {

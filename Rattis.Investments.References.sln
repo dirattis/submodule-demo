@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rattis.Investments.Domain", "Rattis.Investments.Utilities\Rattis.Investments.Domain.csproj", "{485EB91A-AF9A-4AD5-AD84-08A43013D047}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rattis.Investments.Infra.Data", "Rattis.Investments.Infra.Data\Rattis.Investments.Infra.Data.csproj", "{4A651922-1A4E-4C8D-8E49-426E935DF099}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{485EB91A-AF9A-4AD5-AD84-08A43013D047}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{485EB91A-AF9A-4AD5-AD84-08A43013D047}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{485EB91A-AF9A-4AD5-AD84-08A43013D047}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{485EB91A-AF9A-4AD5-AD84-08A43013D047}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A651922-1A4E-4C8D-8E49-426E935DF099}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A651922-1A4E-4C8D-8E49-426E935DF099}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A651922-1A4E-4C8D-8E49-426E935DF099}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A651922-1A4E-4C8D-8E49-426E935DF099}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ACCF97E3-23C3-4E23-B64B-0AAD03726251}
+	EndGlobalSection
+EndGlobal
