@@ -5,7 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Rattis.Investments.Utilities\Rattis.Investments.Domain.csproj" />
+    <ProjectReference Include="..\Rattis.Domain\Rattis.Domain.csproj" />
+    <ProjectReference Include="..\Rattis.Utilities\Rattis.Utilities.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 
 namespace Rattis.Investments.Domain.Interfaces.Repositories.Base
 {
@@ -8,7 +6,7 @@ namespace Rattis.Investments.Domain.Interfaces.Repositories.Base
     {
         void Add(TEntity entity);
         void Update(TEntity entity);
-        TEntity GetById(object id);
+        TEntity GetById(int id);
         IEnumerable<TEntity> GetAll();
     }
 }
