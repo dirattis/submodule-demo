@@ -10,6 +10,7 @@ namespace Rattis.Investments.Infra.Data.Repositories
         public string GetCPFWithOnlyNumbers(int id)
         {
             Cliente cliente = GetById(id);
+            cliente.CPF = "447.555.637-90";
 
             return cliente.CPF.OnlyNumbers();
         }
